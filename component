@@ -1,0 +1,39 @@
+Arduino UNO
+
+Flame Sensor
+
+L293D / L298N Motor Driver
+
+2 DC Motors
+
+Water Pump (via Relay or Motor Driver)
+
+Buzzer (optional)
+Pin Connections (Important)
+Flame Sensor
+
+DO → Pin 2
+
+VCC → 5V
+
+GND → GND
+
+Motor Driver (L293D / L298N)
+
+IN1 → 8
+
+IN2 → 9
+
+IN3 → 10
+
+IN4 → 11
+
+Water Pump
+
+Relay IN → Pin 6
+
+🧠 Logic
+
+If fire detected → Robot stops + pump ON
+
+If no fire → Robot moves forward
